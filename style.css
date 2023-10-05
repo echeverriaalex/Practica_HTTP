@@ -1,0 +1,39 @@
+table{
+    border: 2px solid;
+}
+
+thead{
+    border: 2px solid;
+}
+
+tr, th, td{
+    border: 2px solid;
+}
+
+.users-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.user-info{
+    padding: 10px 10px;
+
+    background: rgb(255, 208, 0);
+    margin: 10px 10px;
+    max-width: 300px;
+    width: 300px;
+}
+
+.company-info{
+    padding: 10px 10px;
+    background: rgb(255, 94, 0);
+    margin: 10px 0px;
+}
+
+.address-info{
+    padding: 10px 10px;
+    background: rgb(255, 251, 0);
+    margin: 10px 0px;
+}
